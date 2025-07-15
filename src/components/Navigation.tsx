@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Code2, Menu, X } from "lucide-react";
+import { ThemeToggle } from "@/components/ThemeToggle";
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -41,7 +42,7 @@ const Navigation = () => {
                 <Code2 className="w-8 h-8 text-accent opacity-50" />
               </div>
             </div>
-            <span className="text-xl font-bold gradient-text">Your Name</span>
+            <span className="text-xl font-bold gradient-text">Mary Kamithi</span>
           </div>
 
           {/* Desktop Navigation */}
@@ -70,10 +71,12 @@ const Navigation = () => {
             >
               Contact
             </button>
+            <ThemeToggle />
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="md:hidden">
+          <div className="md:hidden flex items-center space-x-2">
+            <ThemeToggle />
             <Button
               variant="ghost"
               size="icon"

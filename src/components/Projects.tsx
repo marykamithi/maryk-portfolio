@@ -7,60 +7,33 @@ import { ExternalLink, Github } from "lucide-react";
 const Projects = () => {
   const [activeFilter, setActiveFilter] = useState("All");
 
-  const filters = ["All", "Web Development", "Mobile Apps", "Gaming"];
+  const filters = ["All", "AI/ML", "Full Stack", "Data Science"];
 
   const projects = [
     {
-      title: "Tickosasa - Event Ticketing Platform",
-      description: "A comprehensive event ticketing ecosystem featuring real-time availability, secure payment processing, and intelligent event discovery algorithms. Currently under development.",
-      image: "https://images.pexels.com/photos/1190298/pexels-photo-1190298.jpeg?auto=compress&cs=tinysrgb&w=600",
-      tags: ["React", "Node.js", "MongoDB", "Stripe"],
-      category: "Web Development",
+      title: "AI Mental Wellness App",
+      description: "A full-stack AI-powered mental wellness app that acts as a personalized memory journal and therapist, using the MERN stack for the frontend/backend and Python-based tools for AI and data science functionalities.",
+      image: "https://images.pexels.com/photos/7176319/pexels-photo-7176319.jpeg?auto=compress&cs=tinysrgb&w=600",
+      tags: ["MERN", "Python", "AI", "NLP", "Machine Learning"],
+      category: "AI/ML",
       liveUrl: "#",
       githubUrl: "#"
     },
     {
-      title: "TaskFlow - Productivity App",
-      description: "A modern task management application with team collaboration features, time tracking, and smart project insights to boost productivity.",
-      image: "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=600",
-      tags: ["React", "TypeScript", "Firebase"],
-      category: "Web Development",
+      title: "Real Estate Platform",
+      description: "A comprehensive full-stack real estate website using React, Node.js, Express, and Supabase with property listings, search functionality, and user management features.",
+      image: "https://images.pexels.com/photos/1370704/pexels-photo-1370704.jpeg?auto=compress&cs=tinysrgb&w=600",
+      tags: ["React", "Node.js", "Express", "Supabase"],
+      category: "Full Stack",
       liveUrl: "#",
       githubUrl: "#"
     },
     {
-      title: "FitTracker Mobile",
-      description: "Cross-platform mobile app for fitness tracking with workout planning, progress analytics, and social features for motivation.",
-      image: "https://images.pexels.com/photos/4164418/pexels-photo-4164418.jpeg?auto=compress&cs=tinysrgb&w=600",
-      tags: ["Flutter", "Dart", "Firebase"],
-      category: "Mobile Apps",
-      liveUrl: "#",
-      githubUrl: "#"
-    },
-    {
-      title: "Puzzle Quest Game",
-      description: "An engaging puzzle game with dynamic level generation, leaderboards, and multiplayer challenges built with modern web technologies.",
-      image: "https://images.pexels.com/photos/163064/play-stone-network-networked-interactive-163064.jpeg?auto=compress&cs=tinysrgb&w=600",
-      tags: ["JavaScript", "Canvas API", "WebGL"],
-      category: "Gaming",
-      liveUrl: "#",
-      githubUrl: "#"
-    },
-    {
-      title: "E-Commerce Dashboard",
-      description: "Admin dashboard for e-commerce management with real-time analytics, inventory tracking, and customer insights.",
-      image: "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=600",
-      tags: ["Next.js", "PostgreSQL", "Chart.js"],
-      category: "Web Development",
-      liveUrl: "#",
-      githubUrl: "#"
-    },
-    {
-      title: "Weather Forecast App",
-      description: "Beautiful weather app with accurate forecasts, location-based services, and intuitive design for all devices.",
-      image: "https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=600",
-      tags: ["React Native", "API Integration"],
-      category: "Mobile Apps",
+      title: "Aviation Risk Analysis Model",
+      description: "Data science project that analyzes aviation accident data to help stakeholders identify the safest types of aircraft for potential investment, providing data-driven recommendations for minimizing fatal risk.",
+      image: "https://images.pexels.com/photos/912050/pexels-photo-912050.jpeg?auto=compress&cs=tinysrgb&w=600",
+      tags: ["Python", "Data Analysis", "Machine Learning", "Risk Assessment"],
+      category: "Data Science",
       liveUrl: "#",
       githubUrl: "#"
     }
@@ -80,8 +53,8 @@ const Projects = () => {
               Featured <span className="gradient-text">Projects</span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              A curated showcase of innovative solutions spanning web development, 
-              mobile applications, and interactive gaming platforms.
+              A showcase of AI-powered applications, full-stack solutions, and data science 
+              projects that demonstrate expertise in modern technologies and intelligent systems.
             </p>
           </div>
 

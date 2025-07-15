@@ -2,30 +2,30 @@ import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 
 const About = () => {
-  const programmingLanguages = [
-    "Python", "JavaScript", "TypeScript", "SQL", "Golang", "Dart", "C"
+  const softwareEngineering = [
+    "MERN Stack", "React", "Node.js", "Express", "MongoDB", "PHP", "Laravel"
   ];
 
-  const toolsFrameworks = [
-    "React", "Node.js", "Flask", "Next.js", "Laravel", "Flutter", "SQLAlchemy"
+  const dataScienceAI = [
+    "Machine Learning", "Deep Learning", "NLP", "Computer Vision", "TensorFlow", "PyTorch", "Python", "SQL"
   ];
 
-  const aiInnovation = [
-    "AI Integration", "Prompt Engineering", "Machine Learning", "Automation", "Data Analysis"
+  const toolsPlatforms = [
+    "Git", "Supabase", "Docker", "AWS", "Jupyter", "VS Code"
   ];
 
   const skills = [
     {
-      title: "Rapid Technology Adoption",
-      description: "I get genuinely excited about learning new tech. Give me a weekend and some good docs, and I'll figure it out!"
+      title: "AI & Machine Learning Expert",
+      description: "I specialize in building intelligent systems using cutting-edge ML techniques, from NLP to computer vision applications."
     },
     {
-      title: "Creative Problem Solver", 
-      description: "I love those \"aha!\" moments when you finally crack a tough problem. It's like solving puzzles, but with code!"
+      title: "Full-Stack Developer", 
+      description: "Proficient in the MERN stack and PHP/Laravel, I create seamless end-to-end applications with modern architectures."
     },
     {
-      title: "AI Explorer",
-      description: "I'm fascinated by what AI can do and love experimenting with it. It feels like we're living in the future!"
+      title: "Data-Driven Solutions",
+      description: "I transform complex data into actionable insights, helping businesses make informed decisions through analytics and modeling."
     }
   ];
 
@@ -41,11 +41,11 @@ const About = () => {
           {/* Main Description */}
           <div className="text-center mb-16">
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              What's up! 👋 I'm just a guy who really loves building things with code and
-              figuring out how stuff works. I spend way too much time watching coding tutorials, 
-              trying out new frameworks, and getting excited about AI possibilities. When I'm not 
-              coding, I'm probably thinking about coding or planning my next project. I genuinely 
-              believe anyone can learn anything if they're curious enough! 🚀
+              Hello! 👋 I'm Mary, a passionate Data Scientist and Software Engineer who bridges 
+              the gap between data insights and practical applications. I love creating AI-powered 
+              solutions that solve real-world problems, from mental wellness applications to risk 
+              analysis models. My expertise spans both traditional software development and 
+              cutting-edge machine learning technologies. 🚀
             </p>
           </div>
 
@@ -67,55 +67,55 @@ const About = () => {
 
           {/* Technical Skills */}
           <div className="space-y-12">
-            {/* Programming Languages */}
+            {/* Software Engineering */}
             <div>
               <h3 className="text-2xl font-semibold mb-6 text-center">
-                Programming <span className="gradient-text">Languages</span>
+                Software <span className="gradient-text">Engineering</span>
               </h3>
               <div className="flex flex-wrap justify-center gap-3">
-                {programmingLanguages.map((lang, index) => (
+                {softwareEngineering.map((tech, index) => (
                   <Badge 
                     key={index} 
                     variant="secondary" 
                     className="px-4 py-2 text-sm bg-secondary hover:bg-primary hover:text-primary-foreground transition-colors cursor-default"
                   >
-                    {lang}
+                    {tech}
                   </Badge>
                 ))}
               </div>
             </div>
 
-            {/* Tools & Frameworks */}
+            {/* Data Science & AI */}
             <div>
               <h3 className="text-2xl font-semibold mb-6 text-center">
-                Tools & <span className="gradient-text">Frameworks</span>
+                Data Science & <span className="gradient-text">AI</span>
               </h3>
               <div className="flex flex-wrap justify-center gap-3">
-                {toolsFrameworks.map((tool, index) => (
+                {dataScienceAI.map((skill, index) => (
+                  <Badge 
+                    key={index} 
+                    variant="secondary" 
+                    className="px-4 py-2 text-sm bg-secondary hover:bg-primary hover:text-primary-foreground transition-colors cursor-default"
+                  >
+                    {skill}
+                  </Badge>
+                ))}
+              </div>
+            </div>
+
+            {/* Tools & Platforms */}
+            <div>
+              <h3 className="text-2xl font-semibold mb-6 text-center">
+                Tools & <span className="gradient-text">Platforms</span>
+              </h3>
+              <div className="flex flex-wrap justify-center gap-3">
+                {toolsPlatforms.map((tool, index) => (
                   <Badge 
                     key={index} 
                     variant="secondary" 
                     className="px-4 py-2 text-sm bg-secondary hover:bg-primary hover:text-primary-foreground transition-colors cursor-default"
                   >
                     {tool}
-                  </Badge>
-                ))}
-              </div>
-            </div>
-
-            {/* AI & Innovation */}
-            <div>
-              <h3 className="text-2xl font-semibold mb-6 text-center">
-                AI & <span className="gradient-text">Innovation</span>
-              </h3>
-              <div className="flex flex-wrap justify-center gap-3">
-                {aiInnovation.map((ai, index) => (
-                  <Badge 
-                    key={index} 
-                    variant="secondary" 
-                    className="px-4 py-2 text-sm bg-secondary hover:bg-primary hover:text-primary-foreground transition-colors cursor-default"
-                  >
-                    {ai}
                   </Badge>
                 ))}
               </div>

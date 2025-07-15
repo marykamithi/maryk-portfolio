@@ -37,21 +37,21 @@ const Hero = () => {
 
         {/* Main Heading */}
         <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold mb-6">
-          <span className="block text-foreground mb-2">Your Name</span>
-          <span className="gradient-text">Software Engineer</span>
+          <span className="block text-foreground mb-2">Mary Kamithi</span>
+          <span className="gradient-text">Data Scientist</span>
         </h1>
 
         {/* Subtitle */}
         <p className="text-xl sm:text-2xl text-muted-foreground mb-4">
-          & Business Strategist
+          & Software Engineer
         </p>
 
         {/* Description */}
         <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-12 leading-relaxed">
-          I love building{" "}
-          <span className="text-primary font-semibold">cool digital stuff</span>{" "}
-          that actually works and makes people's lives easier. Tech enthusiast who enjoys 
-          turning crazy ideas into reality.
+          I specialize in{" "}
+          <span className="text-primary font-semibold">AI & machine learning</span>{" "}
+          solutions, creating intelligent applications that transform data into meaningful insights 
+          and drive real-world impact.
         </p>
 
         {/* CTA Buttons */}
@@ -77,7 +77,7 @@ const Hero = () => {
         {/* Social Links */}
         <div className="flex justify-center space-x-6 mb-16">
           <a 
-            href="https://github.com" 
+            href="https://github.com/marykamithi" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-primary transition-colors"
@@ -85,7 +85,7 @@ const Hero = () => {
             <Github className="w-6 h-6" />
           </a>
           <a 
-            href="https://linkedin.com" 
+            href="https://linkedin.com/in/marykamithi" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-primary transition-colors"
@@ -93,7 +93,7 @@ const Hero = () => {
             <Linkedin className="w-6 h-6" />
           </a>
           <a 
-            href="mailto:your.email@example.com"
+            href="mailto:mary@example.com"
             className="text-muted-foreground hover:text-primary transition-colors"
           >
             <Mail className="w-6 h-6" />

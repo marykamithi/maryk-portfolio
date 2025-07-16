@@ -39,7 +39,7 @@ const Footer = () => {
                 <span className="gradient-text">Mary Kamithi</span>
               </h3>
               <p className="text-muted-foreground">
-                Software Engineer & Data Scientistpassionate about 
+                Software Engineer & Data Scientist passionate about 
                 building innovative digital solutions.
               </p>
               

@@ -3,7 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const About = () => {
   const softwareEngineering = [
-    "MERN Stack", "React", "Node.js", "Express", "MongoDB", "PHP", "Laravel"
+     "React", "Node.js", "Express", "MongoDB", "PHP", "Laravel"
   ];
 
   const dataScienceAI = [
@@ -41,11 +41,11 @@ const About = () => {
           {/* Main Description */}
           <div className="text-center mb-16">
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              Hello! 👋 I'm Mary, a passionate Data Scientist and Software Engineer who bridges 
+              Hello! I'm Mary, a passionate Data Scientist and Software Engineer who bridges 
               the gap between data insights and practical applications. I love creating AI-powered 
               solutions that solve real-world problems, from mental wellness applications to risk 
               analysis models. My expertise spans both traditional software development and 
-              cutting-edge machine learning technologies. 🚀
+              cutting-edge machine learning technologies. 
             </p>
           </div>
 

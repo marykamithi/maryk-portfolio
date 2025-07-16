@@ -16,7 +16,7 @@ const Footer = () => {
     },
     {
       icon: Mail,
-      href: "mailto:your.email@example.com",
+      href: "mailto:marykamithi3@gmail.com.com",
       label: "Email"
     }
   ];
@@ -36,10 +36,10 @@ const Footer = () => {
             {/* Brand Section */}
             <div className="space-y-4">
               <h3 className="text-xl font-bold">
-                <span className="gradient-text">Your Name</span>
+                <span className="gradient-text">Mary Kamithi</span>
               </h3>
               <p className="text-muted-foreground">
-                Software Engineer & Business Strategist passionate about 
+                Software Engineer & Data Scientistpassionate about 
                 building innovative digital solutions.
               </p>
               
@@ -95,8 +95,8 @@ const Footer = () => {
             <div className="space-y-4">
               <h4 className="font-semibold text-foreground">Get in Touch</h4>
               <div className="space-y-2 text-muted-foreground">
-                <p>your.email@example.com</p>
-                <p>San Francisco, CA</p>
+                <p>marykamithi3@gmail.com</p>
+                <p>Nairobi, Kenya</p>
                 <p>Available for new opportunities</p>
               </div>
             </div>
@@ -106,7 +106,7 @@ const Footer = () => {
           <div className="border-t border-border mt-8 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
               <p className="text-muted-foreground text-sm">
-                © {currentYear} Your Name. All rights reserved.
+                © {currentYear} Mary Kamithi. All rights reserved.
               </p>
               
               <p className="text-muted-foreground text-sm flex items-center">

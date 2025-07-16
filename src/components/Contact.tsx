@@ -118,7 +118,7 @@ const Contact = () => {
                         required
                         value={formData.email}
                         onChange={handleInputChange}
-                        placeholder="your.email@example.com"
+                        placeholder="youremail@gmail.com"
                         className="bg-background border-border"
                       />
                     </div>
